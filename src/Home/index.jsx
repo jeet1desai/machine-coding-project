@@ -19,6 +19,12 @@ const Home = () => {
           <Link to="/image-slider">Image Slider</Link>
         </li>
         <li>
+          <Link to="/pagination">Pagination</Link>
+        </li>
+        <li>
+          <Link to="/auto-complete-search">Auto Complete Search</Link>
+        </li>
+        <li>
           <Link to="/accordion">Accordion</Link>
         </li>
       </ul>

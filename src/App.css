@@ -6,6 +6,25 @@
   flex-direction: column;
 }
 
+.App ul {
+  list-style-type: none;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.App ul li {
+  border: 1px solid #282c34;
+  border-radius: 8px;
+  padding: 6px 12px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.App ul li a {
+  text-decoration: none;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -83,4 +102,18 @@
 
 .nested-list .nested-list-item {
   margin-left: 30px;
+}
+
+.image-slider {
+  margin: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.image-slider img {
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
 }

@@ -7,6 +7,8 @@ import InfiniteScroll from "./InfiniteScroll";
 import Accordion from "./Accordion";
 import NestedList from "./NestedList";
 import ImageSlider from "./ImageSlider";
+import Pagination from "./Pagination";
+import AutoCompleteSearch from "./AutoCompleteSearch";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Route path="/state-management" element={<StateManagement />}></Route>
         <Route path="/infinite-scroll" element={<InfiniteScroll />}></Route>
         <Route path="/accordion" element={<Accordion />}></Route>
+        <Route path="/pagination" element={<Pagination />}></Route>
+        <Route path="/auto-complete-search" element={<AutoCompleteSearch />}></Route>
         <Route path="/image-slider" element={<ImageSlider />}></Route>
         <Route path="/nested-list" element={<NestedList />}></Route>
       </Routes>
