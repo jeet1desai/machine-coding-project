@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+
+import Home from "./Home";
+import StateManagement from "./StateManagement";
+import InfiniteScroll from "./InfiniteScroll";
+import Accordion from "./Accordion";
+import NestedList from "./NestedList";
+import ImageSlider from "./ImageSlider";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/state-management" element={<StateManagement />}></Route>
+        <Route path="/infinite-scroll" element={<InfiniteScroll />}></Route>
+        <Route path="/accordion" element={<Accordion />}></Route>
+        <Route path="/image-slider" element={<ImageSlider />}></Route>
+        <Route path="/nested-list" element={<NestedList />}></Route>
+      </Routes>
     </div>
   );
 }

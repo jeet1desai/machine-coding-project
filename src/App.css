@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +39,48 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.accordion {
+  text-align: left;
+  margin: 50px;
+  width: 500px;
+}
+
+.accordion > div {
+  margin: 8px;
+  border-radius: 8px;
+  border: 1px solid #61dafb;
+}
+
+.accordion > div > div {
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: aliceblue;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.accordion h4 {
+  margin: 0;
+}
+
+.accordion p {
+  padding: 20px;
+  margin: 0;
+}
+
+.nested-list {
+  text-align: left;
+  margin: 50px;
+}
+
+.nested-list p {
+  cursor: pointer;
+}
+
+.nested-list .nested-list-item {
+  margin-left: 30px;
 }
