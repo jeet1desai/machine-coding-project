@@ -179,3 +179,35 @@
 .real-time .chat .chat-item .chat-name {
   font-weight: bold;
 }
+
+.auto-complete {
+  margin: 50px;
+}
+
+.auto-complete .search-result {
+  width: 525px;
+  display: block;
+  margin-top: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+.auto-complete .search-result li {
+  display: block;
+  padding: 8px;
+  text-align: left;
+}
+
+.auto-complete .search-result li:hover {
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+.auto-complete input {
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid black;
+  padding: 12px;
+  width: 500px;
+  outline: none;
+}
