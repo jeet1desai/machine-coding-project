@@ -22,6 +22,9 @@ const Home = () => {
           <Link to="/pagination">Pagination</Link>
         </li>
         <li>
+          <Link to="/live-chat">Yt Live Chat (RealTime)</Link>
+        </li>
+        <li>
           <Link to="/auto-complete-search">Auto Complete Search</Link>
         </li>
         <li>

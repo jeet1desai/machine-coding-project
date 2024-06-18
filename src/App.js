@@ -9,6 +9,7 @@ import NestedList from "./NestedList";
 import ImageSlider from "./ImageSlider";
 import Pagination from "./Pagination";
 import AutoCompleteSearch from "./AutoCompleteSearch";
+import RealTime from "./RealTime";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/auto-complete-search" element={<AutoCompleteSearch />}></Route>
         <Route path="/image-slider" element={<ImageSlider />}></Route>
         <Route path="/nested-list" element={<NestedList />}></Route>
+        <Route path="/live-chat" element={<RealTime />}></Route>
       </Routes>
     </div>
   );
