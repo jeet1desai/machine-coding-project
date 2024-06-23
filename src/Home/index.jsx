@@ -30,6 +30,15 @@ const Home = () => {
         <li>
           <Link to="/accordion">Accordion</Link>
         </li>
+        <li>
+          <Link to="/kanban">Kanban</Link>
+        </li>
+        <li>
+          <Link to="/watch">Watch - Timer</Link>
+        </li>
+        <li>
+          <Link to="/custom-hook">Custom Hook</Link>
+        </li>
       </ul>
     </>
   );

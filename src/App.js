@@ -10,6 +10,9 @@ import ImageSlider from "./ImageSlider";
 import Pagination from "./Pagination";
 import AutoCompleteSearch from "./AutoCompleteSearch";
 import RealTime from "./RealTime";
+import CustomHook from "./CustomHook";
+import Kanban from "./Kanbans";
+import Watch from "./Watch";
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
         <Route path="/image-slider" element={<ImageSlider />}></Route>
         <Route path="/nested-list" element={<NestedList />}></Route>
         <Route path="/live-chat" element={<RealTime />}></Route>
+        <Route path="/custom-hook" element={<CustomHook />}></Route>
+        <Route path="/kanban" element={<Kanban />}></Route>
+        <Route path="/watch" element={<Watch />}></Route>
       </Routes>
     </div>
   );
