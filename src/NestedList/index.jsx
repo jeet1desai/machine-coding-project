@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import AddEdit from "./AddEdit";
 
 const data = [
   {
@@ -13,23 +14,11 @@ const data = [
             id: 1.4,
             title: "Page 1.1.1",
           },
-          {
-            id: 1.5,
-            title: "Page 1.1.2",
-          },
-          {
-            id: 1.6,
-            title: "Page 1.1.3",
-          },
         ],
       },
       {
         id: 1.2,
         title: "Page 1.2",
-      },
-      {
-        id: 1.3,
-        title: "Page 1.3",
       },
     ],
   },
@@ -41,10 +30,6 @@ const data = [
         id: 2.1,
         title: "Page 2.1",
       },
-      {
-        id: 2.2,
-        title: "Page 2.2",
-      },
     ],
   },
   {
@@ -55,9 +40,16 @@ const data = [
 
 const NestedList = () => {
   return (
-    <div className="nested-list">
-      <ItemComponent data={data} />
-    </div>
+    <>
+      <div className="nested-list">
+        <ItemComponent data={data} />
+      </div>
+
+      <div>
+        <h4>Add Folder, Add File, Edit Name</h4>
+        <AddEdit />
+      </div>
+    </>
   );
 };
 
