@@ -13,6 +13,8 @@ import RealTime from "./RealTime";
 import CustomHook from "./CustomHook";
 import Kanban from "./Kanbans";
 import Watch from "./Watch";
+import ProgressBar from "./ProgressBar";
+import SelectableGrid from "./SelectableGrid";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
         <Route path="/custom-hook" element={<CustomHook />}></Route>
         <Route path="/kanban" element={<Kanban />}></Route>
         <Route path="/watch" element={<Watch />}></Route>
+        <Route path="/selectable-grid" element={<SelectableGrid />}></Route>
+        <Route path="/progress-bar" element={<ProgressBar />}></Route>
       </Routes>
     </div>
   );

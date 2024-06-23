@@ -211,3 +211,42 @@
   width: 500px;
   outline: none;
 }
+
+.progress-bar {
+  width: 300px;
+  height: 30px;
+  background-color: #f1dddd;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50px;
+  margin: 50px;
+}
+
+.progress-bar-fill {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 10), 45px);
+  grid-template-rows: repeat(var(-rows, 10), 35px);
+  row-gap: 4px;
+  column-gap: 4px;
+  user-select: none;
+}
+
+.box {
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.box.active {
+  background-color: aliceblue;
+}

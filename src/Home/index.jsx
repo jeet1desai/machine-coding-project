@@ -37,6 +37,12 @@ const Home = () => {
           <Link to="/watch">Watch - Timer</Link>
         </li>
         <li>
+          <Link to="/selectable-grid">Selectable Grid</Link>
+        </li>
+        <li>
+          <Link to="/progress-bar">Progress Bar</Link>
+        </li>
+        <li>
           <Link to="/custom-hook">Custom Hook</Link>
         </li>
       </ul>
